@@ -44,7 +44,7 @@ public class NewMain {
         day = selectDay();
         time=selectTime();
         Meal food;
-        
+            System.out.println("HI");
         do{
         restaurantName= selectRestaurant(restaurant);
         food=selectFood(meal,restaurantName);
